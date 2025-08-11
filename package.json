@@ -16,5 +16,8 @@
     "url": "https://github.com/anastasia38/JS-auto/issues"
   },
   "homepage": "https://github.com/anastasia38/JS-auto#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  }
 }
