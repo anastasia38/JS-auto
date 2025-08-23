@@ -69,9 +69,9 @@ describe('Registration Form', () => {
             registrationPage.getLastNameField().type('Test');
             const randomEmail = `test${Date.now()}@mail.com`
             registrationPage.getEmailField().type(randomEmail)
-            registrationPage.getPasswordField().type('Pass112233');
+            registrationPage.getPasswordField().type('Pass112233', { sensitive: true });
             registrationPage.getReEnterPasswordField().type('Pass112233', { sensitive: true });
-      cy.contains('Name has to be from 2 to 20 characters long').should('be.visible', { sensitive: true });
+      cy.contains('Name has to be from 2 to 20 characters long').should('be.visible');
        });
      });
 
@@ -87,9 +87,9 @@ describe('Registration Form', () => {
             registrationPage.getLastNameField().type('Test');
             const randomEmail = `test${Date.now()}@mail.com`
             registrationPage.getEmailField().type(randomEmail)
-            registrationPage.getPasswordField().type('Pass112233');
+            registrationPage.getPasswordField().type('Pass112233', { sensitive: true });
             registrationPage.getReEnterPasswordField().type('Pass112233', { sensitive: true });
-      cy.contains('Name has to be from 2 to 20 characters long').should('be.visible', { sensitive: true });
+      cy.contains('Name has to be from 2 to 20 characters long').should('be.visible');
       registrationPage.getNameField()
       .should('have.css', 'border-color', 'rgb(220, 53, 69)');
        });
@@ -161,9 +161,9 @@ describe('Registration Form', () => {
             registrationPage.getLastNameField().type('qwsdcvbtfgercasdrtgbn');
             const randomEmail = `test${Date.now()}@mail.com`
             registrationPage.getEmailField().type(randomEmail)
-            registrationPage.getPasswordField().type('Pass112233');
+            registrationPage.getPasswordField().type('Pass112233', { sensitive: true });
             registrationPage.getReEnterPasswordField().type('Pass112233', { sensitive: true });
-      cy.contains('Last name has to be from 2 to 20 characters long').should('be.visible', { sensitive: true });
+      cy.contains('Last name has to be from 2 to 20 characters long').should('be.visible');
       registrationPage.getLastNameField()
       .should('have.css', 'border-color', 'rgb(220, 53, 69)');
        });
