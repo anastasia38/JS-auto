@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:qauto": "cypress run --config-file cypress.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/anastasia38/JS-auto#readme",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.5.4"
+    "cypress": "^14.5.4",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "mochawesome": "^7.1.3"
   }
 }

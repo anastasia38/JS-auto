@@ -1,3 +1,11 @@
+Cypress.Commands.add("login", (email, password) => {
+  cy.visit("/");
+  cy.contains("Sign In").click();
+  cy.get("input[name=email]").type(email);
+  cy.get("input[name=password]").type(password);
+  cy.get("button[type=submit]").click();
+});
+
 Cypress.Commands.overwrite('type', (originalFn, element, text, options) => {
   if (options && options.sensitive) {
     // turn off original log
