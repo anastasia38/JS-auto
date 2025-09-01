@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:qauto": "cypress run --config-file cypress.config.js"
+    "test:qauto": "cypress run --config-file cypress.config.js",
+    "cy:site1": "cypress run --config baseUrl=https://qauto.forstudy.space",
+    "cy:site2": "cypress run --config baseUrl=https://qauto2.forstudy.space"
   },
   "repository": {
     "type": "git",

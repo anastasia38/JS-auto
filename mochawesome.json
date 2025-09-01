@@ -1078,9 +1078,7 @@
                 }
               ],
               "suites": [],
-              "passes": [
-                "5f3c1c49-098d-426e-b84c-e2d5b673183f"
-              ],
+              "passes": ["5f3c1c49-098d-426e-b84c-e2d5b673183f"],
               "failures": [],
               "pending": [],
               "skipped": [],
@@ -1117,9 +1115,7 @@
                 }
               ],
               "suites": [],
-              "passes": [
-                "9df34605-a2b4-4698-9064-94ff0fc17385"
-              ],
+              "passes": ["9df34605-a2b4-4698-9064-94ff0fc17385"],
               "failures": [],
               "pending": [],
               "skipped": [],
@@ -1156,9 +1152,7 @@
                 }
               ],
               "suites": [],
-              "passes": [
-                "dcee3780-af85-43e3-b46e-478243e79c8e"
-              ],
+              "passes": ["dcee3780-af85-43e3-b46e-478243e79c8e"],
               "failures": [],
               "pending": [],
               "skipped": [],
@@ -1200,9 +1194,7 @@
               ],
               "suites": [],
               "passes": [],
-              "failures": [
-                "763040b2-abff-49f4-93f6-f73f60547f0e"
-              ],
+              "failures": ["763040b2-abff-49f4-93f6-f73f60547f0e"],
               "pending": [],
               "skipped": [],
               "duration": 356,
@@ -1238,9 +1230,7 @@
                 }
               ],
               "suites": [],
-              "passes": [
-                "3a73e425-8e7c-4791-b4b1-3b3b22bdcb31"
-              ],
+              "passes": ["3a73e425-8e7c-4791-b4b1-3b3b22bdcb31"],
               "failures": [],
               "pending": [],
               "skipped": [],
@@ -1277,9 +1267,7 @@
                 }
               ],
               "suites": [],
-              "passes": [
-                "ad49e7f7-ba36-4b60-b13a-36b3fe0c4ac8"
-              ],
+              "passes": ["ad49e7f7-ba36-4b60-b13a-36b3fe0c4ac8"],
               "failures": [],
               "pending": [],
               "skipped": [],
@@ -1316,9 +1304,7 @@
                 }
               ],
               "suites": [],
-              "passes": [
-                "e2b38b30-7fd9-442c-a39e-e70560f2217a"
-              ],
+              "passes": ["e2b38b30-7fd9-442c-a39e-e70560f2217a"],
               "failures": [],
               "pending": [],
               "skipped": [],
@@ -1355,9 +1341,7 @@
                 }
               ],
               "suites": [],
-              "passes": [
-                "67cf34bf-3975-49d8-bd50-b6f6e164dcd3"
-              ],
+              "passes": ["67cf34bf-3975-49d8-bd50-b6f6e164dcd3"],
               "failures": [],
               "pending": [],
               "skipped": [],
@@ -1394,9 +1378,7 @@
                 }
               ],
               "suites": [],
-              "passes": [
-                "51455907-6243-4332-982c-baabc04e26da"
-              ],
+              "passes": ["51455907-6243-4332-982c-baabc04e26da"],
               "failures": [],
               "pending": [],
               "skipped": [],
@@ -1433,9 +1415,7 @@
                 }
               ],
               "suites": [],
-              "passes": [
-                "c6798a4c-1fcd-404e-9ea7-3ca1c4e3805a"
-              ],
+              "passes": ["c6798a4c-1fcd-404e-9ea7-3ca1c4e3805a"],
               "failures": [],
               "pending": [],
               "skipped": [],
